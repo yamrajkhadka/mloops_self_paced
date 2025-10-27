@@ -1,0 +1,32 @@
+artifact_path: /home/yamraj/Projects/mloops_projects/mloops_self_paced/03-training/mlruns/1/models/m-71d20996b83c4763b17924c3971825bb/artifacts
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.9.12
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.core.Booster
+    model_format: xgb
+    xgb_version: 2.1.4
+is_signature_from_type_hint: false
+mlflow_version: 3.1.4
+model_id: m-71d20996b83c4763b17924c3971825bb
+model_size_bytes: 8101774
+model_uuid: m-71d20996b83c4763b17924c3971825bb
+prompts: null
+run_id: b780dc4b47244c52a3f41663d7b21498
+saved_input_example_info:
+  artifact_path: input_example.json
+  serving_input_path: serving_input_example.json
+  type: sparse_matrix_csr
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 13221]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-10-25 10:31:48.427164'

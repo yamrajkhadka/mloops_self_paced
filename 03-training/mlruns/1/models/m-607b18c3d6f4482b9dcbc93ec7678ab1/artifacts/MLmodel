@@ -1,0 +1,22 @@
+artifact_path: /home/yamraj/Projects/mloops_projects/mloops_self_paced/03-training/mlruns/1/models/m-607b18c3d6f4482b9dcbc93ec7678ab1/artifacts
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.9.12
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.core.Booster
+    model_format: xgb
+    xgb_version: 2.1.4
+mlflow_version: 3.1.4
+model_id: m-607b18c3d6f4482b9dcbc93ec7678ab1
+model_size_bytes: 7374354
+model_uuid: m-607b18c3d6f4482b9dcbc93ec7678ab1
+prompts: null
+run_id: 071d9caa9dea4ea9bebbcb0339237478
+utc_time_created: '2025-10-25 10:08:23.464633'

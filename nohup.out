@@ -1,0 +1,46 @@
+2025/10/25 13:49:52 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+2025/10/25 13:49:52 INFO mlflow.store.db.utils: Updating database tables
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2025/10/25 13:49:53 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+2025/10/25 13:49:53 INFO mlflow.store.db.utils: Updating database tables
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+[2025-10-25 13:49:53 +0545] [25861] [INFO] Starting gunicorn 23.0.0
+[2025-10-25 13:49:53 +0545] [25861] [ERROR] Connection in use: ('127.0.0.1', 5001)
+[2025-10-25 13:49:53 +0545] [25861] [ERROR] connection to ('127.0.0.1', 5001) failed: [Errno 98] Address already in use
+[2025-10-25 13:49:54 +0545] [25861] [ERROR] Connection in use: ('127.0.0.1', 5001)
+[2025-10-25 13:49:54 +0545] [25861] [ERROR] connection to ('127.0.0.1', 5001) failed: [Errno 98] Address already in use
+[2025-10-25 13:49:55 +0545] [25861] [ERROR] Connection in use: ('127.0.0.1', 5001)
+[2025-10-25 13:49:55 +0545] [25861] [ERROR] connection to ('127.0.0.1', 5001) failed: [Errno 98] Address already in use
+[2025-10-25 13:49:56 +0545] [25861] [ERROR] Connection in use: ('127.0.0.1', 5001)
+[2025-10-25 13:49:56 +0545] [25861] [ERROR] connection to ('127.0.0.1', 5001) failed: [Errno 98] Address already in use
+[2025-10-25 13:49:57 +0545] [25861] [ERROR] Connection in use: ('127.0.0.1', 5001)
+[2025-10-25 13:49:57 +0545] [25861] [ERROR] connection to ('127.0.0.1', 5001) failed: [Errno 98] Address already in use
+[2025-10-25 13:49:58 +0545] [25861] [ERROR] Can't connect to ('127.0.0.1', 5001)
+Running the mlflow server failed. Please see the logs above for details.
+2025/10/25 13:51:35 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+2025/10/25 13:51:35 INFO mlflow.store.db.utils: Updating database tables
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2025/10/25 13:51:35 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+2025/10/25 13:51:35 INFO mlflow.store.db.utils: Updating database tables
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+[2025-10-25 13:51:35 +0545] [26160] [INFO] Starting gunicorn 23.0.0
+[2025-10-25 13:51:35 +0545] [26160] [ERROR] Connection in use: ('127.0.0.1', 5001)
+[2025-10-25 13:51:35 +0545] [26160] [ERROR] connection to ('127.0.0.1', 5001) failed: [Errno 98] Address already in use
+[2025-10-25 13:51:36 +0545] [26160] [ERROR] Connection in use: ('127.0.0.1', 5001)
+[2025-10-25 13:51:36 +0545] [26160] [ERROR] connection to ('127.0.0.1', 5001) failed: [Errno 98] Address already in use
+[2025-10-25 13:51:37 +0545] [26160] [ERROR] Connection in use: ('127.0.0.1', 5001)
+[2025-10-25 13:51:37 +0545] [26160] [ERROR] connection to ('127.0.0.1', 5001) failed: [Errno 98] Address already in use
+[2025-10-25 13:51:38 +0545] [26160] [ERROR] Connection in use: ('127.0.0.1', 5001)
+[2025-10-25 13:51:38 +0545] [26160] [ERROR] connection to ('127.0.0.1', 5001) failed: [Errno 98] Address already in use
+[2025-10-25 13:51:39 +0545] [26160] [ERROR] Connection in use: ('127.0.0.1', 5001)
+[2025-10-25 13:51:39 +0545] [26160] [ERROR] connection to ('127.0.0.1', 5001) failed: [Errno 98] Address already in use
+[2025-10-25 13:51:40 +0545] [26160] [ERROR] Can't connect to ('127.0.0.1', 5001)
+Running the mlflow server failed. Please see the logs above for details.
